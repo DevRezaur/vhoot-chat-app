@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile_image"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/txt_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabTextColor="@color/colorPrimary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

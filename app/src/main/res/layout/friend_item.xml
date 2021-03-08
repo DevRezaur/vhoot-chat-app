@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingStart="@dimen/_15sdp"
+    android:paddingEnd="@dimen/_15sdp"
+    android:paddingTop="@dimen/_10sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile_image"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="@dimen/_12sdp"
+        android:layout_toEndOf="@id/iv_profile_image"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/iv_profile_image"
+        android:layout_marginTop="@dimen/_10sdp" />
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_online"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        app:civ_border_width="@dimen/_5sdp"
+        app:civ_border_color="@color/teal_500"
+        android:src="@drawable/logo"
+        android:layout_below="@id/tv_username"
+        android:layout_toEndOf="@id/iv_profile_image"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginStart="-15dp"
+        android:visibility="gone" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_offline"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        app:civ_border_width="@dimen/_5sdp"
+        app:civ_border_color="@color/blue_grey_300"
+        android:src="@drawable/logo"
+        android:layout_below="@id/tv_username"
+        android:layout_toEndOf="@id/iv_profile_image"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginStart="-15dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

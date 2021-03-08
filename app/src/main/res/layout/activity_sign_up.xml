@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_page"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@android:color/background_dark"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_5sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_40sdp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/edt_full_name"
+            android:labelFor="@id/edt_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/_12sdp"
+            android:inputType="textNoSuggestions"
+            android:importantForAutofill="no"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:layout_marginStart="-5dp"
+            android:layout_marginEnd="-5dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:labelFor="@id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/_12sdp"
+            android:inputType="textEmailAddress"
+            android:importantForAutofill="no"
+            android:maxLength="50"
+            android:maxLines="1"
+            android:layout_marginStart="-5dp"
+            android:layout_marginEnd="-5dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp" />
+
+<!--        <View-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="15dp" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/choose_a_username"-->
+<!--            android:textColor="@color/colorPrimary"-->
+<!--            android:textSize="@dimen/_12sdp" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edt_username"-->
+<!--            android:labelFor="@id/edt_username"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:textColor="@android:color/background_light"-->
+<!--            android:textSize="@dimen/_12sdp"-->
+<!--            android:inputType="textNoSuggestions"-->
+<!--            android:importantForAutofill="no"-->
+<!--            android:maxLength="25"-->
+<!--            android:maxLines="1"-->
+<!--            android:layout_marginStart="-5dp"-->
+<!--            android:layout_marginEnd="-5dp"-->
+<!--            android:paddingStart="@dimen/_5sdp"-->
+<!--            android:paddingEnd="@dimen/_5sdp" />-->
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_a_password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:labelFor="@id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/_12sdp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:layout_marginStart="-5dp"
+            android:layout_marginEnd="-5dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_password"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12sdp" />
+
+        <EditText
+            android:id="@+id/edt_confirm_password"
+            android:labelFor="@id/edt_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/_12sdp"
+            android:inputType="textPassword"
+            android:importantForAutofill="no"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:layout_marginStart="-5dp"
+            android:layout_marginEnd="-5dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:text="@string/sign_up"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/background_dark"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_rounded_amber"
+            android:onClick="doSignup" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="25dp" />
+
+    </LinearLayout>
+</LinearLayout>

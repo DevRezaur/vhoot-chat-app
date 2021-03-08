@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:theme="@style/ThemeOverlay.MaterialComponents.Dark">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile_image"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/txt_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bar_layout"
+        android:layout_above="@+id/bottom_bar" />
+    
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/edt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/btn_send"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_5sdp"
+            android:hint="@string/type_a_message"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"
+            android:background="@android:color/transparent"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions" />
+        
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_send"
+            android:contentDescription="@string/image"
+            android:onClick="sendMessage" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Vhoot Chat App</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="image">image</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_user">New user?</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up_page">Sign Up Page</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="choose_a_username">Choose a username</string>
+    <string name="choose_a_password">Choose a password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="search_user">Search User</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password_reset_page">Password Reset Page</string>
+    <string name="enter_email">Enter Your Email Address</string>
+    <string name="reset_message">One email will be sent to your email address to reset your password.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="about_vhoot_app">About Vhoot App</string>
+    <string name="about_developers">Developers Information</string>
+    <string name="app_description">Vhoot is a lightweight minimalistic messaging app. This was developed by two individuals,
+        Rezaur Rahman and Sanzida Sultana. It was developed as semester final project for Daffodil International University.
+        This is the very first iteration of this app. So some minor bug and performance issue might be discovered.</string>
+    <string name="rezaur_description">Rezaur Rahman\nInstitute Id: 181–15–10595\nDepartment of CSE\nDaffodil International
+        University</string>
+    <string name="sanzida_description">Mst Sanzida Sultana\nInstitute Id: 181–15–10597\nDepartment of CSE\nDaffodil International
+        University</string>
+    <string name="dev_rezaur">\@DevRezaur</string>
+    <string name="upload_photo">Upload Photo</string>
+</resources>

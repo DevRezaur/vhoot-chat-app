@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment"
+    android:padding="@dimen/_8sdp" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_30sdp" />
+
+            <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_below="@id/iv_profile_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"/>
+
+            <Button
+                android:id="@+id/btn_upload_photo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_below="@id/txt_username"
+                android:text="@string/upload_photo"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/background_dark"
+                android:background="@drawable/btn_rounded_amber"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_reset_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:layout_below="@id/btn_upload_photo"
+                android:text="@string/reset_password"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/background_dark"
+                android:background="@drawable/btn_rounded_amber"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

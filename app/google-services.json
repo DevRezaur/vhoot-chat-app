@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958699171154",
+    "project_id": "vhoot-app",
+    "storage_bucket": "vhoot-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958699171154:android:b74e4693685564b7db5e8b",
+        "android_client_info": {
+          "package_name": "dev.rezaur.vhoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958699171154-f31ba8tu90q9ql3t1sigelf1ggk6rd6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOQ8gVR5h0u5er8wcfAxqTDFJaZvX4iqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958699171154-f31ba8tu90q9ql3t1sigelf1ggk6rd6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent"
+            android:layout_marginStart="@dimen/_40sdp"
+            android:layout_marginEnd="@dimen/_40sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ghost"
+                android:contentDescription="@string/image"
+                app:tint="@color/colorPrimary" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_horizontal"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:labelFor="@id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="textEmailAddress"
+                android:importantForAutofill="no"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:layout_marginStart="-5dp"
+                android:layout_marginEnd="-5dp"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/_12sdp" />
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:labelFor="@id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@android:color/background_light"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"
+                android:maxLength="25"
+                android:maxLines="1"
+                android:layout_marginStart="-5dp"
+                android:layout_marginEnd="-5dp"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_5sdp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password"
+                android:textColor="@color/colorAccentSecondary"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="end"
+                android:onClick="goForgetPage"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:text="@string/login"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/background_dark"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_rounded_amber"
+                android:onClick="doLogin" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_user"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="@dimen/_12sdp" />
+
+                <View
+                    android:layout_width="7dp"
+                    android:layout_height="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_up"
+                    android:textColor="@color/colorAccentSecondary"
+                    android:textSize="@dimen/_12sdp"
+                    android:onClick="goSignupPage" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
