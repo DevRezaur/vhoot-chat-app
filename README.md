@@ -5,31 +5,31 @@ This project was done by me as my acedemic semester project on android :smile:
 
 ### Login Screen
 
-![Screenshot 1](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Login%20Page.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Login%20Page.jpg" width="300" />
 
 ### Signup Screen
 
-![Screenshot 2](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Signup%20Page.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Signup%20Page.jpg" width="300" />
 
 ### Recent Chats
 
-![Screenshot 3](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Chatbox.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Chatbox.jpg" width="300" />
 
 ### Chat Screen
 
-![Screenshot 4](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Inbox.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Inbox.jpg" width="300" />
 
 ### All Users
 
-![Screenshot 5](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Users%20Page.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Users%20Page.jpg" width="300" />
 
 ### User Profile
 
-![Screenshot 6](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Profile%20Page.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Profile%20Page.jpg" width="300" />
 
 ### Password Reset Page
 
-![Screenshot 7](https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Password%20Reset.jpg)
+<img src="https://raw.githubusercontent.com/DevRezaur/vhoot-chat-app/main/screenshots/Password%20Reset.jpg" width="300" />
 
 ---
 
